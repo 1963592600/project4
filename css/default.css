@@ -1,0 +1,229 @@
+    *{
+        box-sizing: border-box;
+    }
+
+    h1,h2{
+        text-align: center;
+    }
+
+    a{
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    ul{
+        list-style: none;
+        margin: 0;
+    }
+
+    .row{
+        margin-left: -30px;
+    }
+
+    img{
+        width: 100%;
+    }
+
+
+    .form-control{
+        display: inline-block;
+    }
+
+
+    .container{
+        min-width: 1200px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .clear::before,
+    .clear::after {
+        content: " ";
+        clear: both;
+        display: block;
+    }
+
+    .left{
+        float: left;
+    }
+
+    .right{
+        float: right;
+    }
+
+    .col-3{
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .col-2{
+        float: left;
+        width: 270px;
+        margin-left: 30px;
+        margin-bottom:30px;
+    }
+
+    .top-nav {
+        min-width: 1280px;
+        padding: 10px;
+        font-size: 16px;
+        background: #dedede;
+    }
+
+
+    .top-nav .header{
+        font-size: 25px;
+    }
+
+    .top-nav li{
+        display: inline-block;
+    }
+
+    .top-nav .header a{
+        padding: 0px;
+        color: black;
+    }
+
+    .top-nav a{
+        width: 100px;
+        height: 100%;
+        text-align: center;
+        padding: 6px;
+    }
+
+    .top-nav a:hover{
+        text-decoration: none;
+        background: orange;
+        color: white;
+        border-radius: 3px;
+    }
+
+    .headerwrap {
+        text-align: center;
+        margin: 40px 0;
+    }
+
+    .headerwrap h1,
+    .headerwrap h2{
+        margin: 30px 0;
+    }
+
+
+    .headerwrap input[type=text]{
+        width: 500px;
+        height: 50px;
+        padding: 5px;
+        text-align: center;
+        outline: none;
+        border-radius: 3px;
+        
+    }
+
+    .headerwrap input[type=text]:focus{
+        box-shadow: inset 2px 2px rgba(0, 0, 0, .1)
+    }
+
+    .headerwrap input[type=submit]{
+        width: 185px;
+        height: 50px;
+    }
+
+    .scrollblock {
+        background: orange
+    }
+
+    .scrollblock p{
+        text-align: center;
+        font-size: 30px;
+        padding: 15px;
+        margin: 30px 0;
+    }
+
+    .portfolio {
+        margin: 50px 0;
+    }
+
+    .portfolio h1{
+        margin: 30px 0;
+    }
+
+    .portfolio .top,
+    .portfolio .buttom{
+        width: 370px;
+    }
+
+    .portfolio h3,
+    .portfolio p{
+        margin: 30px 0;
+    }
+
+    .services {
+        margin: 50px 0;
+    }
+
+    .services h1,
+    .services h3{
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    .services .item{
+        height: 280px;
+        background: #dedede;
+        padding: 5px;
+        transition: box-shadow .5s;
+    }
+
+    .services .item:hover{
+        box-shadow: 0 2px 2px rgba(0, 0, 0, .3)
+    }
+
+    .testimonials {
+        padding: 50px 0;
+        background: greenyellow;
+        color: black
+    }
+
+    .testimonials p{
+        font-size: 30px;
+        margin: 30px 0;
+    }
+
+    .new {
+        margin: 50px 0;
+    }
+
+    .new h1{
+        margin: 30px 0;
+    }
+
+    .new h3,.new p{
+        margin: 20px 0;
+    }
+
+    .new .top,
+    .new .content{
+        width: 370px;
+    }
+
+    .new .footer{
+        text-align: center;
+        margin: 50px 0;
+        
+    }
+
+    .new .footer button{
+        font-size: 20px;
+    }
+
+    .footerwrap {
+        min-width: 1280px;
+        background: #dedede;
+        padding: 20px 0;
+    }
+
+    .footerwrap p{
+        text-align: center;
+        margin: 0;
+    }
